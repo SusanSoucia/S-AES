@@ -1,0 +1,8 @@
+# 所有.pyc文件
+*.pyc
+
+# 弃用文件
+app.py
+core.py
+
+/.idea
