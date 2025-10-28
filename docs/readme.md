@@ -1,6 +1,9 @@
 # S-AES 的python实现：信息安全导论作业2
 ## Made by 杨浩天 & 伍承伍洲
 此仓库为 S-AES的**python** + **Qt** 实现  
+![1](D:\VSCODE\PYTHON\S-AES\docImages\ppt.png)  
+
+<https://shimo.im/sheets/q1H0X5QKBBaWfJmF/YIRts/>
 
 ## 🧱 代码结构
 ```
