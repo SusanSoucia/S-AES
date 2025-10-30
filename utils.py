@@ -34,7 +34,7 @@ def hex_blocks_to_str(blocks):
 
     # 尝试解码为ASCII字符串，忽略无法解码的字节
     try:
-        return bytes_data.rstrip(b'\x00').decode('ascii', errors='ignore')
+        return bytes_data.rstrip(b'\x00').decode('latin-1',errors='replace')
     except UnicodeDecodeError:
         return str(bytes_data)
 
